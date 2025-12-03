@@ -14,7 +14,7 @@
   }
 
   &-content {
-    @include contentPaddingInLine;
+    @include content-padding-inline;
   }
 
   &__phone-number {

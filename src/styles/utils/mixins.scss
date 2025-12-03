@@ -1,11 +1,13 @@
 @mixin on-tablet {
-  @content;
+  @media (min-width: $tablet-min-width) {
+    @content;
+  }
 }
 
 @mixin content-padding-inline {
   padding-inline: 20px;
 
-  @media (min-width: $tablet-min-width) {
+  @include on-tablet {
     padding-inline: 72px;
   }
 }
