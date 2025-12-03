@@ -1,0 +1,29 @@
+.icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+
+  @include on-tablet {
+    width: 32px;
+    height: 32px;
+  }
+
+  &--phone {
+    background-image: url(../images/icon/icon-phone-call.png);
+  }
+
+  &--menu {
+    background-image: url(../images/icon/icon-burger-menu.png);
+  }
+
+  &--close {
+    background-image: url(../images/icon/icon-close.png);
+  }
+}
+
+
+
+
+
+
