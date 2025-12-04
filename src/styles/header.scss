@@ -1,13 +1,9 @@
 .header {
   box-sizing: border-box;
   height: 100vh;
-  background-image: url(../images/header-bg-phone.png);
+  background-image: url(../images/header-bg.png);
   background-size: cover;
   background-position: center;
-
-  @include on-tablet {
-    background-image: url(../images/header-bg-tablet.png);
-  }
 
   display: flex;
   flex-direction: column;
@@ -18,17 +14,7 @@
     justify-content: space-between;
     align-items: center;
   }
-
-  &__logo {
-    width: 152px;
-    height: 16px;
-
-    @include on-tablet {
-      width: 228px;
-      height: 24px;
-    }
-  }
-
+  
   &__title {
     margin: 0;
     font-size: 36px;
@@ -45,6 +31,10 @@
     padding-bottom:40px;
 
     @include content-padding-inline;
+
+    @include on-tablet {
+      padding-bottom: 64px;
+    }
   }
 }
 

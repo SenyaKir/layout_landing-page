@@ -4,21 +4,23 @@
   height: 24px;
   background-size: cover;
 
+  @include hover(transform, scale(1.2));
+
   @include on-tablet {
     width: 32px;
     height: 32px;
   }
 
   &--phone {
-    background-image: url(../images/icon/icon-phone-call.png);
+    background-image: url(../images/icon/icon-phone-call-2x.png);
   }
 
   &--menu {
-    background-image: url(../images/icon/icon-burger-menu.png);
+    background-image: url(../images/icon/icon-burger-menu-2x.png);
   }
 
   &--close {
-    background-image: url(../images/icon/icon-close.png);
+    background-image: url(../images/icon/icon-close-2x.png);
   }
 }
 
