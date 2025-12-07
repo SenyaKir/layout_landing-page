@@ -1,8 +1,6 @@
 .top-bar {
   padding-block: 24px;
 
-  @include content-padding-inline;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,7 +17,7 @@
   &__logo-link {
     display: flex;
   }
-    &__logo {
+  &__logo {
     width: 152px;
     height: 16px;
 
@@ -31,6 +29,3 @@
     }
   }
 }
-
-
-

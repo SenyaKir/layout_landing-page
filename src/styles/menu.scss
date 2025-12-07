@@ -9,16 +9,12 @@
     margin-bottom: 32px;
 
     @include on-tablet {
-      margin-bottom: 0;
+      margin-bottom: 56px;
     }
   }
 
   &__nav {
     margin-bottom: 48px;
-  }
-
-  &-content {
-    @include content-padding-inline;
   }
 
   &__phone-number {
@@ -51,4 +47,3 @@
     }
   }
 }
-
