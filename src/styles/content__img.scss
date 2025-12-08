@@ -1,0 +1,22 @@
+.content__img {
+  grid-column: 1 / -1;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+
+  @include on-tablet {
+    margin-bottom: 120px;
+    height: 400px;
+  }
+
+  @include on-desktop {
+    height: 460px;
+  }
+
+  &__photo {
+    height: 100%;
+    object-fit: contain;
+  }
+}
